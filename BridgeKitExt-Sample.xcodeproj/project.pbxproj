@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750AF32C1872C25900A9F7F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750AF32B1872C25900A9F7F5 /* UIKit.framework */; };
+		750AF32E1872C25900A9F7F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750AF32D1872C25900A9F7F5 /* Foundation.framework */; };
+		750AF3301872C25900A9F7F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750AF32F1872C25900A9F7F5 /* CoreGraphics.framework */; };
+		750AF3361872C25900A9F7F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 750AF3341872C25900A9F7F5 /* InfoPlist.strings */; };
+		750AF3381872C25900A9F7F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 750AF3371872C25900A9F7F5 /* main.m */; };
+		750AF33C1872C25900A9F7F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 750AF33B1872C25900A9F7F5 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		750AF3281872C25900A9F7F5 /* BridgeKitExt-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BridgeKitExt-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750AF32B1872C25900A9F7F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		750AF32D1872C25900A9F7F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		750AF32F1872C25900A9F7F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		750AF3331872C25900A9F7F5 /* BridgeKitExt-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BridgeKitExt-Sample-Info.plist"; sourceTree = "<group>"; };
+		750AF3351872C25900A9F7F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		750AF3371872C25900A9F7F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		750AF3391872C25900A9F7F5 /* BridgeKitExt-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BridgeKitExt-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		750AF33A1872C25900A9F7F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		750AF33B1872C25900A9F7F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		750AF34D1872C27500A9F7F5 /* BridgeKitExt.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = BridgeKitExt.java; sourceTree = "<group>"; };
+		750AF34F1872C27500A9F7F5 /* BridgeKitExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeKitExt.h; sourceTree = "<group>"; };
+		750AF3501872C27500A9F7F5 /* BridgeKitExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeKitExt.m; sourceTree = "<group>"; };
+		750AF3541872C2D000A9F7F5 /* configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = configuration.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		750AF3251872C25900A9F7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750AF32C1872C25900A9F7F5 /* UIKit.framework in Frameworks */,
+				750AF32E1872C25900A9F7F5 /* Foundation.framework in Frameworks */,
+				750AF3301872C25900A9F7F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		750AF31F1872C25900A9F7F5 = {
+			isa = PBXGroup;
+			children = (
+				750AF3481872C27500A9F7F5 /* java */,
+				750AF34E1872C27500A9F7F5 /* java-wrappers */,
+				750AF3511872C2D000A9F7F5 /* BridgeKitExt-Sample.approj */,
+				750AF3311872C25900A9F7F5 /* BridgeKitExt-Sample */,
+				750AF32A1872C25900A9F7F5 /* Frameworks */,
+				750AF3291872C25900A9F7F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		750AF3291872C25900A9F7F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				750AF3281872C25900A9F7F5 /* BridgeKitExt-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		750AF32A1872C25900A9F7F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				750AF32B1872C25900A9F7F5 /* UIKit.framework */,
+				750AF32D1872C25900A9F7F5 /* Foundation.framework */,
+				750AF32F1872C25900A9F7F5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		750AF3311872C25900A9F7F5 /* BridgeKitExt-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				750AF33A1872C25900A9F7F5 /* AppDelegate.h */,
+				750AF33B1872C25900A9F7F5 /* AppDelegate.m */,
+				750AF3321872C25900A9F7F5 /* Supporting Files */,
+			);
+			path = "BridgeKitExt-Sample";
+			sourceTree = "<group>";
+		};
+		750AF3321872C25900A9F7F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				750AF3331872C25900A9F7F5 /* BridgeKitExt-Sample-Info.plist */,
+				750AF3341872C25900A9F7F5 /* InfoPlist.strings */,
+				750AF3371872C25900A9F7F5 /* main.m */,
+				750AF3391872C25900A9F7F5 /* BridgeKitExt-Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		750AF3481872C27500A9F7F5 /* java */ = {
+			isa = PBXGroup;
+			children = (
+				750AF3491872C27500A9F7F5 /* src */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		750AF3491872C27500A9F7F5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				750AF34A1872C27500A9F7F5 /* com */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		750AF34A1872C27500A9F7F5 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				750AF34B1872C27500A9F7F5 /* duksel */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		750AF34B1872C27500A9F7F5 /* duksel */ = {
+			isa = PBXGroup;
+			children = (
+				750AF34C1872C27500A9F7F5 /* apportable */,
+			);
+			path = duksel;
+			sourceTree = "<group>";
+		};
+		750AF34C1872C27500A9F7F5 /* apportable */ = {
+			isa = PBXGroup;
+			children = (
+				750AF34D1872C27500A9F7F5 /* BridgeKitExt.java */,
+			);
+			path = apportable;
+			sourceTree = "<group>";
+		};
+		750AF34E1872C27500A9F7F5 /* java-wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				750AF34F1872C27500A9F7F5 /* BridgeKitExt.h */,
+				750AF3501872C27500A9F7F5 /* BridgeKitExt.m */,
+			);
+			path = "java-wrappers";
+			sourceTree = "<group>";
+		};
+		750AF3511872C2D000A9F7F5 /* BridgeKitExt-Sample.approj */ = {
+			isa = PBXGroup;
+			children = (
+				750AF3541872C2D000A9F7F5 /* configuration.json */,
+			);
+			path = "BridgeKitExt-Sample.approj";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		750AF3271872C25900A9F7F5 /* BridgeKitExt-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750AF3451872C25900A9F7F5 /* Build configuration list for PBXNativeTarget "BridgeKitExt-Sample" */;
+			buildPhases = (
+				750AF3241872C25900A9F7F5 /* Sources */,
+				750AF3251872C25900A9F7F5 /* Frameworks */,
+				750AF3261872C25900A9F7F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BridgeKitExt-Sample";
+			productName = "BridgeKitExt-Sample";
+			productReference = 750AF3281872C25900A9F7F5 /* BridgeKitExt-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		750AF3201872C25900A9F7F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Duksel Corp.";
+			};
+			buildConfigurationList = 750AF3231872C25900A9F7F5 /* Build configuration list for PBXProject "BridgeKitExt-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 750AF31F1872C25900A9F7F5;
+			productRefGroup = 750AF3291872C25900A9F7F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				750AF3271872C25900A9F7F5 /* BridgeKitExt-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		750AF3261872C25900A9F7F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750AF3361872C25900A9F7F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		750AF3241872C25900A9F7F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750AF3381872C25900A9F7F5 /* main.m in Sources */,
+				750AF33C1872C25900A9F7F5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		750AF3341872C25900A9F7F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				750AF3351872C25900A9F7F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		750AF3431872C25900A9F7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		750AF3441872C25900A9F7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		750AF3461872C25900A9F7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridgeKitExt-Sample/BridgeKitExt-Sample-Prefix.pch";
+				INFOPLIST_FILE = "BridgeKitExt-Sample/BridgeKitExt-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		750AF3471872C25900A9F7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridgeKitExt-Sample/BridgeKitExt-Sample-Prefix.pch";
+				INFOPLIST_FILE = "BridgeKitExt-Sample/BridgeKitExt-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		750AF3231872C25900A9F7F5 /* Build configuration list for PBXProject "BridgeKitExt-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750AF3431872C25900A9F7F5 /* Debug */,
+				750AF3441872C25900A9F7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750AF3451872C25900A9F7F5 /* Build configuration list for PBXNativeTarget "BridgeKitExt-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750AF3461872C25900A9F7F5 /* Debug */,
+				750AF3471872C25900A9F7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 750AF3201872C25900A9F7F5 /* Project object */;
+}
